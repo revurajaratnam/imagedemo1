@@ -10,7 +10,7 @@
             margin: 0;
             box-sizing: border-box;
         }
-        .car1,button{
+        .car1{
             display:inline-flex;
             justify-content: center;
             align-items: center;
@@ -22,7 +22,6 @@
             border-radius: 1em;
             filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.25));
             transform-style: preserve-3d;
-            border:none;
            
 
         }
@@ -46,11 +45,7 @@
            
         }
         .car2:hover{
-            background-color: transparent;
-            border-radius: 1em;
-            filter: drop-shadow(10px 15px 10px rgba(255, 204, 0, 0.999));
-             transform:translateX(-500px);
-           
+             opacity:0; 
         }
 
         img{
@@ -75,6 +70,5 @@
     <div class="car2">
         <img src="assets/01.webp" alt="Car-Model-2" id="carr1">
     </div>
-    
 </body>
 </html>
